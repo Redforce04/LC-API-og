@@ -117,6 +117,16 @@ dotnet_diagnostic.CS1591.severity = none
 # SA1633: File should have header 
 dotnet_diagnostic.SA1633.severity = none
 
+[Patches/*.cs]
+# SA1313: 
+dotnet_diagnostic.SA1313.severity = none
+resharper_inconsistent_naming_highlighting=none
+resharper_unused_parameter_local_highlighting=none
+resharper_unused_member_local_highlighting=none
+resharper_string_literal_typo_highlighting=none
+resharper_identifier_typo_highlighting=none
+resharper_comment_typo_highlighting=none
+
 [*.{cs,vb}]
 #### Naming styles ####
 
